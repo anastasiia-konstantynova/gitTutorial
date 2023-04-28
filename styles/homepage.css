@@ -1,0 +1,98 @@
+@font-face{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: #CDCDCD;
+}
+
+nav {
+    padding: 10px;
+    margin: 10px 10px;
+    float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    padding: 8px;   
+}
+
+.container-header{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width:  55vw;
+    height:  65vh;
+    object-fit: cover;
+    object-position: center;
+    padding: 20
+}
+
+
+.service-container{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px 25px;
+    
+}
+
+.service{
+    width: 300px;
+    height: 200px;
+    background-color: #CDCDCD;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+div.service_icon{
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-text{
+    margin: 30px 130px;
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    margin: 30px 0px;
+    padding: 5px;
+}
+
+div.footer-nav{
+    text-align: center;
+}
+
+ul.myFooter {
+  display: inline-block;
+  text-align: left;
+}
